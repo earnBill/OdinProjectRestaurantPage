@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button {
+    color: red;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
