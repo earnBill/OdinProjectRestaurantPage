@@ -1,5 +1,6 @@
 import './style.css';
-import {msg} from './home.js'
+import {msg, createHomePage} from './home.js'
 
 console.log('Aloha!!!!!!!!!');
 msg();
+createHomePage();

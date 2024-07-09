@@ -1,3 +1,6 @@
+body {
+    background-color: #f9f5e9;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -12,4 +15,14 @@ button {
 
 button:hover {
     background-color: lightgrey;
+}
+
+.home-image {
+    width: 450px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
 }
