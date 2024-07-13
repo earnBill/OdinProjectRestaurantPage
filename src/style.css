@@ -19,10 +19,20 @@ button:hover {
 
 .home-image {
     width: 450px;
+    mix-blend-mode: darken;
 }
 
 #content {
     display: flex;
     flex-direction: column;
     align-items:  center;
+}
+.homeText {
+    width: 400px;
+    text-align: center;
+}
+.homeHeader {
+    font-size: 62px;
+    font-weight: 600;
+    text-align: center;
 }

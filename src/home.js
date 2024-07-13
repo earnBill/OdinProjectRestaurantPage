@@ -11,7 +11,9 @@ function createHomePage () {
   console.log('create Homepage');
   
   h1.textContent = 'The best burgers in town';
+  h1.className = 'homeHeader';
   para.textContent = 'Delves into the Joy of Burger Craftsmanship, Inspiring Enthusiasts to Savor the Complex Flavors and Rich Aromas in Every Bite.';
+  para.className = 'homeText';
 
   content.appendChild(image);
   content.appendChild(h1);
