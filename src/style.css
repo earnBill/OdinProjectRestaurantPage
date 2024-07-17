@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f9f5e9;
+    margin: auto;
 }
 nav {
     display: flex;
@@ -26,6 +31,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items:  center;
+    justify-content: center;
 }
 .homeText {
     width: 400px;
@@ -35,5 +41,31 @@ button:hover {
     font-size: 62px;
     font-weight: 600;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.product-image {
+    width: 200px;
+    border-radius: 20px;
 }
 
