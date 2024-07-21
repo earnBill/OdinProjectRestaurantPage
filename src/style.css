@@ -16,6 +16,7 @@ button {
     margin: 10px;
     border-radius: 10px;
     padding: 5px;
+    width: 100px;
 }
 
 button:hover {
@@ -69,3 +70,23 @@ button:hover {
     border-radius: 20px;
 }
 
+.about-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.about-container img {
+    width: 400px;
+    margin: 10px;
+}
+
+.about-container p {
+    text-align: justify;
+    padding: 20px;
+}

@@ -1,6 +1,8 @@
 import './style.css';
 import { msg, createHomePage } from './home.js';
 import { createMenuPage } from './menu.js';
+import { createAboutPage } from './about.js';
+
 
 const btnHome = document.querySelector('#home');
 const bntMenu = document.querySelector('#menu');
@@ -22,6 +24,7 @@ bntMenu.addEventListener('click', () => {
 
 btnAbout.addEventListener('click', () => {
     clearPage();
+    createAboutPage();
 });
 
 function clearPage() {
