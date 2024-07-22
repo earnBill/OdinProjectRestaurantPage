@@ -1,3 +1,5 @@
+import homeBurger from './pics/homeBurger.jpg';
+
 const msg = () => console.log('home');
 const content = document.querySelector('#content');
 
@@ -6,7 +8,7 @@ function createHomePage () {
   const para = document.createElement('p');
   const h1 = document.createElement('h1');
 
-  image.src = '/pics/homeBurger.jpg';
+  image.src = homeBurger;
   image.classList.add('home-image');
   console.log('create Homepage');
   

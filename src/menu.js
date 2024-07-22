@@ -1,35 +1,41 @@
+import classicBurger from "./pics/classicBurger.jpg";
+import bbqBurger from "./pics/bbqBurger.jpg";
+import mushroomBurger from './pics/mushroomBurger.jpg'
+import spicyBurger from './pics/spicyBurger.jpg';
+import veggieBurger from './pics/veggieBurger.jpg';
+import baconBurger from './pics/baconBurger.jpg';
 
 const content = document.querySelector('#content');
 
 const menu = [ 
     {  
         title: 'Classic',
-        image: 'classicBurger.jpg',
+        image: classicBurger,
         desc: 'Traditional beef burger with lettuce, tomato, and cheese.'
     },
     {
         title: 'BBQ',
-        image: 'bbqBurger.jpg',
+        image: bbqBurger,
         desc: 'Beef burger with smoky BBQ sauce and crispy onions.'  
     },
     {
         title: 'Mushroom',
-        image: 'mushroomBurger.jfif',
+        image: mushroomBurger,
         desc: 'Juicy beef burger topped with sautéed mushrooms and Swiss cheese.'
     },
     {
         title: 'Spicy',
-        image: 'spicyBurger.jpg',
+        image: spicyBurger,
         desc: 'Spicy beef burger with jalapeños and pepper jack cheese.'
     },
     {
         title: 'Veggie',
-        image: 'VeggieBurger.jpg',
+        image: veggieBurger,
         desc: 'Delicious veggie patty with fresh greens and avocado.'
     },
     {
         title: 'Bacon',
-        image: 'baconBurger.jpg',
+        image: baconBurger,
         desc: 'Beef burger loaded with crispy bacon and cheddar cheese.'
     }
 ];
@@ -53,7 +59,7 @@ function createMenuPage() {
 
       const image = document.createElement('img');
       image.className = 'product-image';
-      image.src = '/pics/' + element.image;
+      image.src = element.image;
 
       const productTitle = document.createElement('h3');
       productTitle.className = 'product-title';
